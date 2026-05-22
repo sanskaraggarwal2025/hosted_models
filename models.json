@@ -1,0 +1,990 @@
+[
+  {
+    "id": "gpt-4.1",
+    "name": "GPT-4.1",
+    "url": "https://api.openai.com/v1/responses",
+    "provider": "openai",
+    "input_token_cost": 2.0,
+    "output_token_cost": 8.0,
+    "is_downloadable": false,
+    "status": 0,
+    "is_embedding_model": false,
+    "capabilities": {
+      "text": {
+        "input": true,
+        "output": true
+      },
+      "audio": {
+        "input": false,
+        "output": false
+      },
+      "video": {
+        "input": false,
+        "output": false
+      },
+      "image": {
+        "input": true,
+        "output": false
+      },
+      "realtime": false,
+      "support_tool_calling": true
+    },
+    "cached_token_cost": 0.5,
+    "model_info": {},
+    "creator_name": "OpenAI",
+    "modified_by": "",
+    "description": "Advanced multimodal model with enhanced reasoning capabilities"
+  },
+  {
+    "id": "gpt-4o",
+    "name": "GPT-4o",
+    "url": "https://api.openai.com/v1/responses",
+    "provider": "openai",
+    "input_token_cost": 2.5,
+    "output_token_cost": 10.0,
+    "is_downloadable": false,
+    "status": 0,
+    "is_embedding_model": false,
+    "capabilities": {
+      "text": {
+        "input": true,
+        "output": true
+      },
+      "audio": {
+        "input": false,
+        "output": false
+      },
+      "video": {
+        "input": false,
+        "output": false
+      },
+      "image": {
+        "input": true,
+        "output": false
+      },
+      "realtime": false,
+      "support_tool_calling": true
+    },
+    "cached_token_cost": 1.25,
+    "model_info": {},
+    "creator_name": "OpenAI",
+    "modified_by": "",
+    "description": "Flagship multimodal model optimized for speed and intelligence"
+  },
+  {
+    "id": "o3-mini",
+    "name": "o3-mini",
+    "url": "https://api.openai.com/v1/responses",
+    "provider": "openai",
+    "input_token_cost": 1.1,
+    "output_token_cost": 4.4,
+    "is_downloadable": false,
+    "status": 0,
+    "is_embedding_model": false,
+    "capabilities": {
+      "text": {
+        "input": true,
+        "output": true
+      },
+      "audio": {
+        "input": false,
+        "output": false
+      },
+      "video": {
+        "input": false,
+        "output": false
+      },
+      "image": {
+        "input": false,
+        "output": false
+      },
+      "realtime": false,
+      "support_tool_calling": true
+    },
+    "cached_token_cost": 0.55,
+    "model_info": {},
+    "creator_name": "OpenAI",
+    "modified_by": "",
+    "description": "Reasoning-focused model with enhanced problem-solving abilities"
+  },
+  {
+    "id": "o4-mini",
+    "name": "o4-mini",
+    "url": "https://api.openai.com/v1/responses",
+    "provider": "openai",
+    "input_token_cost": 1.1,
+    "output_token_cost": 4.4,
+    "is_downloadable": false,
+    "status": 0,
+    "is_embedding_model": false,
+    "capabilities": {
+      "text": {
+        "input": true,
+        "output": true
+      },
+      "audio": {
+        "input": false,
+        "output": false
+      },
+      "video": {
+        "input": false,
+        "output": false
+      },
+      "image": {
+        "input": true,
+        "output": false
+      },
+      "realtime": false,
+      "support_tool_calling": true
+    },
+    "cached_token_cost": 0.275,
+    "model_info": {},
+    "creator_name": "OpenAI",
+    "modified_by": "",
+    "description": "Next-generation reasoning model with improved efficiency"
+  },
+  {
+    "id": "o3",
+    "name": "o3",
+    "url": "https://api.openai.com/v1/responses",
+    "provider": "openai",
+    "input_token_cost": 2.0,
+    "output_token_cost": 8.0,
+    "is_downloadable": false,
+    "status": 0,
+    "is_embedding_model": false,
+    "capabilities": {
+      "text": {
+        "input": true,
+        "output": true
+      },
+      "audio": {
+        "input": false,
+        "output": false
+      },
+      "video": {
+        "input": false,
+        "output": false
+      },
+      "image": {
+        "input": true,
+        "output": false
+      },
+      "realtime": false,
+      "support_tool_calling": true
+    },
+    "cached_token_cost": 0.5,
+    "model_info": {},
+    "creator_name": "OpenAI",
+    "modified_by": "",
+    "description": "Advanced reasoning model for complex problem-solving tasks"
+  },
+  {
+    "id": "gemini-2.5-flash",
+    "name": "gemini-2.5-flash",
+    "url": "https://generativelanguage.googleapis.com/v1beta/chat/completions",
+    "provider": "gemini",
+    "input_token_cost": 0.3,
+    "output_token_cost": 2.5,
+    "is_downloadable": false,
+    "status": 0,
+    "is_embedding_model": false,
+    "capabilities": {
+      "text": {
+        "input": true,
+        "output": true
+      },
+      "audio": {
+        "input": true,
+        "output": false
+      },
+      "video": {
+        "input": true,
+        "output": false
+      },
+      "image": {
+        "input": true,
+        "output": false
+      },
+      "realtime": false,
+      "support_tool_calling": true
+    },
+    "cached_token_cost": 0.075,
+    "model_info": {},
+    "creator_name": "Google",
+    "modified_by": "",
+    "description": "Fast and efficient multimodal model for diverse tasks"
+  },
+  {
+    "id": "gemini-2.0-flash",
+    "name": "gemini-2.0-flash",
+    "url": "https://generativelanguage.googleapis.com/v1beta/chat/completions",
+    "provider": "gemini",
+    "input_token_cost": 0.1,
+    "output_token_cost": 0.4,
+    "is_downloadable": false,
+    "status": 0,
+    "is_embedding_model": false,
+    "capabilities": {
+      "text": {
+        "input": true,
+        "output": true
+      },
+      "audio": {
+        "input": true,
+        "output": false
+      },
+      "video": {
+        "input": true,
+        "output": false
+      },
+      "image": {
+        "input": true,
+        "output": false
+      },
+      "realtime": false,
+      "support_tool_calling": true
+    },
+    "cached_token_cost": 0.025,
+    "model_info": {},
+    "creator_name": "Google",
+    "modified_by": "",
+    "description": "Cost-effective multimodal model for high-volume applications"
+  },
+  {
+    "id": "gemini-2.5-pro",
+    "name": "gemini-2.5-pro",
+    "url": "https://generativelanguage.googleapis.com/v1beta/chat/completions",
+    "provider": "gemini",
+    "input_token_cost": 1.25,
+    "output_token_cost": 10.0,
+    "is_downloadable": false,
+    "status": 0,
+    "is_embedding_model": false,
+    "capabilities": {
+      "text": {
+        "input": true,
+        "output": true
+      },
+      "audio": {
+        "input": true,
+        "output": false
+      },
+      "video": {
+        "input": true,
+        "output": false
+      },
+      "image": {
+        "input": true,
+        "output": false
+      },
+      "realtime": false,
+      "support_tool_calling": true
+    },
+    "cached_token_cost": 0.31,
+    "model_info": {},
+    "creator_name": "Google",
+    "modified_by": "",
+    "description": "Professional-grade multimodal model for complex reasoning"
+  },
+  {
+    "id": "gemini-3-flash-preview",
+    "name": "gemini-3-flash-preview",
+    "url": "https://generativelanguage.googleapis.com/v1beta/chat/completions",
+    "provider": "gemini",
+    "input_token_cost": 0.5,
+    "output_token_cost": 5.0,
+    "is_downloadable": false,
+    "status": 0,
+    "is_embedding_model": false,
+    "capabilities": {
+      "text": {
+        "input": true,
+        "output": true
+      },
+      "audio": {
+        "input": true,
+        "output": false
+      },
+      "video": {
+        "input": true,
+        "output": false
+      },
+      "image": {
+        "input": true,
+        "output": false
+      },
+      "realtime": false,
+      "support_tool_calling": true
+    },
+    "cached_token_cost": 0.125,
+    "model_info": {},
+    "creator_name": "Google",
+    "modified_by": "",
+    "description": "Next-generation Flash model with enhanced multimodal capabilities"
+  },
+  {
+    "id": "gemini-3-pro-preview",
+    "name": "gemini-3-pro-preview",
+    "url": "https://generativelanguage.googleapis.com/v1beta/chat/completions",
+    "provider": "gemini",
+    "input_token_cost": 2.0,
+    "output_token_cost": 12.0,
+    "is_downloadable": false,
+    "status": 0,
+    "is_embedding_model": false,
+    "capabilities": {
+      "text": {
+        "input": true,
+        "output": true
+      },
+      "audio": {
+        "input": true,
+        "output": false
+      },
+      "video": {
+        "input": true,
+        "output": false
+      },
+      "image": {
+        "input": true,
+        "output": false
+      },
+      "realtime": false,
+      "support_tool_calling": true
+    },
+    "cached_token_cost": 0.2,
+    "model_info": {},
+    "creator_name": "Google",
+    "modified_by": "",
+    "description": "Next-generation Pro model with advanced reasoning capabilities"
+  },
+  {
+    "id": "gemini-2.5-flash-native-audio-preview-12-2025",
+    "name": "gemini-2.5-flash-native-audio-preview",
+    "url": "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent",
+    "provider": "gemini",
+    "input_token_cost": 3.0,
+    "output_token_cost": 12.0,
+    "is_downloadable": false,
+    "status": 0,
+    "is_embedding_model": false,
+    "capabilities": {
+      "text": {
+        "input": true,
+        "output": true
+      },
+      "audio": {
+        "input": true,
+        "output": true
+      },
+      "video": {
+        "input": true,
+        "output": false
+      },
+      "image": {
+        "input": true,
+        "output": false
+      },
+      "realtime": true
+    },
+    "cached_token_cost": 0.0,
+    "model_info": {},
+    "creator_name": "Google",
+    "modified_by": "",
+    "description": "Multimodal model with native audio input and output support"
+  },
+  {
+    "id": "claude-3.5-haiku",
+    "name": "claude-3.5-haiku",
+    "url": "https://api.anthropic.com/v1/messages",
+    "provider": "claude",
+    "input_token_cost": 0.8,
+    "output_token_cost": 4.0,
+    "is_downloadable": false,
+    "status": 0,
+    "is_embedding_model": false,
+    "capabilities": {
+      "text": {
+        "input": true,
+        "output": true
+      },
+      "audio": {
+        "input": false,
+        "output": false
+      },
+      "video": {
+        "input": false,
+        "output": false
+      },
+      "image": {
+        "input": true,
+        "output": false
+      },
+      "realtime": false,
+      "support_tool_calling": true
+    },
+    "cached_token_cost": 0.08,
+    "model_info": {},
+    "creator_name": "Anthropic",
+    "modified_by": "",
+    "description": "Fast and cost-effective model for everyday tasks"
+  },
+  {
+    "id": "claude-3-7-sonnet",
+    "name": "claude-3.7-sonnet",
+    "url": "https://api.anthropic.com/v1/messages",
+    "provider": "claude",
+    "input_token_cost": 3.0,
+    "output_token_cost": 15.0,
+    "is_downloadable": false,
+    "status": 0,
+    "is_embedding_model": false,
+    "capabilities": {
+      "text": {
+        "input": true,
+        "output": true
+      },
+      "audio": {
+        "input": false,
+        "output": false
+      },
+      "video": {
+        "input": false,
+        "output": false
+      },
+      "image": {
+        "input": true,
+        "output": false
+      },
+      "realtime": false,
+      "support_tool_calling": true
+    },
+    "cached_token_cost": 0.3,
+    "model_info": {},
+    "creator_name": "Anthropic",
+    "modified_by": "",
+    "description": "Balanced model for intelligence and speed with vision capabilities"
+  },
+  {
+    "id": "claude-4-sonnet",
+    "name": "claude-4-sonnet",
+    "url": "https://api.anthropic.com/v1/messages",
+    "provider": "claude",
+    "input_token_cost": 3.0,
+    "output_token_cost": 15.0,
+    "is_downloadable": false,
+    "status": 0,
+    "is_embedding_model": false,
+    "capabilities": {
+      "text": {
+        "input": true,
+        "output": true
+      },
+      "audio": {
+        "input": false,
+        "output": false
+      },
+      "video": {
+        "input": false,
+        "output": false
+      },
+      "image": {
+        "input": true,
+        "output": false
+      },
+      "realtime": false,
+      "support_tool_calling": true
+    },
+    "cached_token_cost": 0.3,
+    "model_info": {},
+    "creator_name": "Anthropic",
+    "modified_by": "",
+    "description": "Next-generation Sonnet with improved reasoning and vision"
+  },
+  {
+    "id": "gpt-5",
+    "name": "GPT-5",
+    "url": "https://api.openai.com/v1/responses",
+    "provider": "openai",
+    "input_token_cost": 1.25,
+    "output_token_cost": 10.0,
+    "is_downloadable": false,
+    "status": 0,
+    "is_embedding_model": false,
+    "capabilities": {
+      "text": {
+        "input": true,
+        "output": true
+      },
+      "audio": {
+        "input": false,
+        "output": false
+      },
+      "video": {
+        "input": false,
+        "output": false
+      },
+      "image": {
+        "input": true,
+        "output": false
+      },
+      "realtime": false,
+      "support_tool_calling": true
+    },
+    "cached_token_cost": 0.125,
+    "model_info": {},
+    "creator_name": "OpenAI",
+    "modified_by": "",
+    "description": "Next-generation flagship model with breakthrough capabilities"
+  },
+  {
+    "id": "gpt-5-mini",
+    "name": "GPT-5-mini",
+    "url": "https://api.openai.com/v1/responses",
+    "provider": "openai",
+    "input_token_cost": 0.25,
+    "output_token_cost": 2.0,
+    "is_downloadable": false,
+    "status": 0,
+    "is_embedding_model": false,
+    "capabilities": {
+      "text": {
+        "input": true,
+        "output": true
+      },
+      "audio": {
+        "input": false,
+        "output": false
+      },
+      "video": {
+        "input": false,
+        "output": false
+      },
+      "image": {
+        "input": true,
+        "output": false
+      },
+      "realtime": false,
+      "support_tool_calling": true
+    },
+    "cached_token_cost": 0.025,
+    "model_info": {},
+    "creator_name": "OpenAI",
+    "modified_by": "",
+    "description": "Efficient model for high-volume everyday tasks"
+  },
+  {
+    "id": "gpt-5-nano",
+    "name": "GPT-5-nano",
+    "url": "https://api.openai.com/v1/responses",
+    "provider": "openai",
+    "input_token_cost": 0.05,
+    "output_token_cost": 0.4,
+    "is_downloadable": false,
+    "status": 0,
+    "is_embedding_model": false,
+    "capabilities": {
+      "text": {
+        "input": true,
+        "output": true
+      },
+      "audio": {
+        "input": false,
+        "output": false
+      },
+      "video": {
+        "input": false,
+        "output": false
+      },
+      "image": {
+        "input": true,
+        "output": false
+      },
+      "realtime": false,
+      "support_tool_calling": true
+    },
+    "cached_token_cost": 0.005,
+    "model_info": {},
+    "creator_name": "OpenAI",
+    "modified_by": "",
+    "description": "Ultra-efficient model for simple, high-throughput tasks"
+  },
+  {
+    "id": "gpt-realtime",
+    "name": "GPT-realtime",
+    "url": "https://api.openai.com/v1/realtime",
+    "provider": "openai",
+    "input_token_cost": 32.0,
+    "output_token_cost": 64.0,
+    "is_downloadable": false,
+    "status": 0,
+    "is_embedding_model": false,
+    "capabilities": {
+      "text": {
+        "input": true,
+        "output": true
+      },
+      "audio": {
+        "input": true,
+        "output": true
+      },
+      "video": {
+        "input": false,
+        "output": false
+      },
+      "image": {
+        "input": true,
+        "output": false
+      },
+      "realtime": true,
+      "support_tool_calling": true
+    },
+    "cached_token_cost": 0.4,
+    "model_info": {},
+    "creator_name": "OpenAI",
+    "modified_by": "",
+    "description": "Real-time multimodal model with audio input and output"
+  },
+  {
+    "id": "gpt-realtime-mini",
+    "name": "GPT-realtime-mini",
+    "url": "https://api.openai.com/v1/realtime",
+    "provider": "openai",
+    "input_token_cost": 10.0,
+    "output_token_cost": 20.0,
+    "is_downloadable": false,
+    "status": 0,
+    "is_embedding_model": false,
+    "capabilities": {
+      "text": {
+        "input": true,
+        "output": true
+      },
+      "audio": {
+        "input": true,
+        "output": true
+      },
+      "video": {
+        "input": false,
+        "output": false
+      },
+      "image": {
+        "input": true,
+        "output": false
+      },
+      "realtime": true,
+      "support_tool_calling": true
+    },
+    "cached_token_cost": 0.3,
+    "model_info": {},
+    "creator_name": "OpenAI",
+    "modified_by": "",
+    "description": "Efficient real-time model with audio capabilities"
+  },
+  {
+    "id": "gpt-4o-realtime",
+    "name": "GPT-4o-realtime",
+    "url": "https://api.openai.com/v1/realtime",
+    "provider": "openai",
+    "input_token_cost": 40.0,
+    "output_token_cost": 80.0,
+    "is_downloadable": false,
+    "status": 0,
+    "is_embedding_model": false,
+    "capabilities": {
+      "text": {
+        "input": true,
+        "output": true
+      },
+      "audio": {
+        "input": true,
+        "output": true
+      },
+      "video": {
+        "input": false,
+        "output": false
+      },
+      "image": {
+        "input": false,
+        "output": false
+      },
+      "realtime": true,
+      "support_tool_calling": true
+    },
+    "cached_token_cost": 2.5,
+    "model_info": {},
+    "creator_name": "OpenAI",
+    "modified_by": "",
+    "description": "Advanced real-time model for voice interactions"
+  },
+  {
+    "id": "gpt-4o-mini-realtime",
+    "name": "GPT-4o-mini-realtime",
+    "url": "https://api.openai.com/v1/realtime",
+    "provider": "openai",
+    "input_token_cost": 10.0,
+    "output_token_cost": 20.0,
+    "is_downloadable": false,
+    "status": 0,
+    "is_embedding_model": false,
+    "capabilities": {
+      "text": {
+        "input": true,
+        "output": true
+      },
+      "audio": {
+        "input": true,
+        "output": true
+      },
+      "video": {
+        "input": false,
+        "output": false
+      },
+      "image": {
+        "input": false,
+        "output": false
+      },
+      "realtime": true,
+      "support_tool_calling": true
+    },
+    "cached_token_cost": 0.3,
+    "model_info": {},
+    "creator_name": "OpenAI",
+    "modified_by": "",
+    "description": "Cost-effective real-time model for voice applications"
+  },
+  {
+    "id": "gemma-3-270m-it-GGUF",
+    "name": "Gemma 3 270m",
+    "url": "https://huggingface.co/unsloth/gemma-3-270m-it-GGUF/resolve/main/gemma-3-270m-it-Q8_0.gguf?download=true",
+    "provider": "local",
+    "input_token_cost": 0.0,
+    "output_token_cost": 0.0,
+    "is_downloadable": true,
+    "status": 0,
+    "is_embedding_model": false,
+    "capabilities": {
+      "support_tool_calling": false
+    },
+    "cached_token_cost": 0.0,
+    "model_info": {
+      "download_size": "292 MB",
+      "homepage_url": "https://huggingface.co/unsloth/gemma-3-270m-it-GGUF",
+      "quantization": "Q8_0"
+    },
+    "creator_name": "Google",
+    "modified_by": "Unsloth",
+    "description": "Lightweight instruction-tuned model for on-device inference"
+  },
+  {
+    "id": "embeddinggemma-300M-GGUF",
+    "name": "Embedding Gemma 300M",
+    "url": "https://huggingface.co/ggml-org/embeddinggemma-300M-GGUF/resolve/main/embeddinggemma-300M-Q8_0.gguf",
+    "provider": "local",
+    "input_token_cost": 0.0,
+    "output_token_cost": 0.0,
+    "is_downloadable": true,
+    "status": 0,
+    "is_embedding_model": true,
+    "capabilities": {},
+    "cached_token_cost": 0.0,
+    "model_info": {
+      "download_size": "314 MB",
+      "homepage_url": "https://huggingface.co/ggml-org/embeddinggemma-300M-GGUF",
+      "quantization": "Q8_0"
+    },
+    "creator_name": "Google",
+    "modified_by": "ggml-org",
+    "description": "Efficient text embedding model for semantic search"
+  },
+  {
+    "id": "nomic-embed-text-v1.5.Q8_0",
+    "name": "Nomic Embed Text v1.5",
+    "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5-GGUF/resolve/main/nomic-embed-text-v1.5.Q8_0.gguf",
+    "provider": "local",
+    "input_token_cost": 0.0,
+    "output_token_cost": 0.0,
+    "is_downloadable": true,
+    "status": 0,
+    "is_embedding_model": true,
+    "capabilities": {},
+    "cached_token_cost": 0.0,
+    "model_info": {
+      "download_size": "146 MB",
+      "homepage_url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5-GGUF",
+      "quantization": "Q8_0"
+    },
+    "creator_name": "Nomic AI",
+    "modified_by": "",
+    "description": "High-performance text embedding model with long context"
+  },
+  {
+    "id": "tinyLLama-1.1B-Chat-v1.0-GGUF",
+    "name": "TinyLlama 1.1B Chat",
+    "url": "https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF/resolve/main/tinyllama-1.1b-chat-v1.0.Q8_0.gguf?download=true",
+    "provider": "local",
+    "input_token_cost": 0.0,
+    "output_token_cost": 0.0,
+    "is_downloadable": true,
+    "status": 0,
+    "is_embedding_model": false,
+    "capabilities": {},
+    "cached_token_cost": 0.0,
+    "model_info": {
+      "download_size": "1.1 GB",
+      "homepage_url": "https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF",
+      "quantization": "Q8_0"
+    },
+    "creator_name": "TinyLlama",
+    "modified_by": "TheBloke",
+    "description": "Compact chat model optimized for resource-constrained environments"
+  },
+  {
+    "id": "functiongemma-270m-it-q8_0",
+    "name": "Function Gemma 270m Instruct",
+    "url": "https://huggingface.co/ggml-org/functiongemma-270m-it-GGUF/resolve/main/functiongemma-270m-it-q8_0.gguf",
+    "provider": "local",
+    "input_token_cost": 0.0,
+    "output_token_cost": 0.0,
+    "is_downloadable": true,
+    "status": 0,
+    "is_embedding_model": false,
+    "capabilities": {},
+    "cached_token_cost": 0.0,
+    "model_info": {
+      "download_size": "292 MB",
+      "homepage_url": "https://huggingface.co/ggml-org/functiongemma-270m-it-GGUF",
+      "quantization": "Q8_0"
+    },
+    "creator_name": "Google",
+    "modified_by": "ggml-org",
+    "description": "Function-calling model for tool use and API interactions"
+  },
+  {
+    "id": "granite-4.0-h-small-Q4_K_M",
+    "name": "IBM Granite 4.0 H Small",
+    "url": "https://huggingface.co/ibm-granite/granite-4.0-h-small-GGUF/resolve/main/granite-4.0-h-small-Q4_K_M.gguf",
+    "provider": "local",
+    "input_token_cost": 0.0,
+    "output_token_cost": 0.0,
+    "is_downloadable": true,
+    "status": 0,
+    "is_embedding_model": false,
+    "capabilities": {},
+    "cached_token_cost": 0.0,
+    "model_info": {
+      "download_size": "19.5 GB",
+      "homepage_url": "https://huggingface.co/ibm-granite/granite-4.0-h-small-GGUF",
+      "quantization": "Q4_K_M"
+    },
+    "creator_name": "IBM",
+    "modified_by": "",
+    "description": "Enterprise-grade small language model for business applications"
+  },
+  {
+    "id": "granite-4.0-1b-Q8_0",
+    "name": "IBM Granite 4.0 1B",
+    "url": "https://huggingface.co/ibm-granite/granite-4.0-1b-GGUF/resolve/main/granite-4.0-1b-Q8_0.gguf",
+    "provider": "local",
+    "input_token_cost": 0.0,
+    "output_token_cost": 0.0,
+    "is_downloadable": true,
+    "status": 0,
+    "is_embedding_model": false,
+    "capabilities": {},
+    "cached_token_cost": 0.0,
+    "model_info": {
+      "download_size": "1.74 GB",
+      "homepage_url": "https://huggingface.co/ibm-granite/granite-4.0-1b-GGUF",
+      "quantization": "Q8_0"
+    },
+    "creator_name": "IBM",
+    "modified_by": "",
+    "description": "Compact enterprise model for efficient on-device deployment"
+  },
+  {
+    "id": "granite-3.3-8b-instruct-Q8_0",
+    "name": "IBM Granite 3.3 8B Instruct",
+    "url": "https://huggingface.co/ibm-granite/granite-3.3-8b-instruct-GGUF/resolve/main/granite-3.3-8b-instruct-Q8_0.gguf",
+    "provider": "local",
+    "input_token_cost": 0.0,
+    "output_token_cost": 0.0,
+    "is_downloadable": true,
+    "status": 0,
+    "is_embedding_model": false,
+    "capabilities": {},
+    "cached_token_cost": 0.0,
+    "model_info": {
+      "download_size": "8.5 GB",
+      "homepage_url": "https://huggingface.co/ibm-granite/granite-3.3-8b-instruct-GGUF",
+      "quantization": "Q8_0"
+    },
+    "creator_name": "IBM",
+    "modified_by": "",
+    "description": "Instruction-tuned enterprise model for business tasks"
+  },
+  {
+    "id": "qwen2.5-coder-7b-instruct-q8_0",
+    "name": "Qwen 2.5 Coder 7B Instruct",
+    "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct-GGUF/resolve/main/qwen2.5-coder-7b-instruct-q8_0.gguf",
+    "provider": "local",
+    "input_token_cost": 0.0,
+    "output_token_cost": 0.0,
+    "is_downloadable": true,
+    "status": 0,
+    "is_embedding_model": false,
+    "capabilities": {},
+    "cached_token_cost": 0.0,
+    "model_info": {
+      "download_size": "8.1 GB",
+      "homepage_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct-GGUF",
+      "quantization": "Q8_0"
+    },
+    "creator_name": "Alibaba Cloud",
+    "modified_by": "",
+    "description": "Code-specialized model for programming and development tasks"
+  },
+  {
+    "id": "Devstral-Small-2-24B-Instruct-2512-Q4_0",
+    "name": "Devstral Small 2 24B Instruct",
+    "url": "https://huggingface.co/unsloth/Devstral-Small-2-24B-Instruct-2512-GGUF/resolve/main/Devstral-Small-2-24B-Instruct-2512-Q4_0.gguf",
+    "provider": "local",
+    "input_token_cost": 0.0,
+    "output_token_cost": 0.0,
+    "is_downloadable": true,
+    "status": 0,
+    "is_embedding_model": false,
+    "capabilities": {},
+    "cached_token_cost": 0.0,
+    "model_info": {
+      "download_size": "13.6 GB",
+      "homepage_url": "https://huggingface.co/unsloth/Devstral-Small-2-24B-Instruct-2512-GGUF",
+      "quantization": "Q4_0"
+    },
+    "creator_name": "Mistral AI",
+    "modified_by": "Unsloth",
+    "description": "Coding agent model for software engineering with 128K context"
+  },
+  {
+    "id": "granite-4.0-h-tiny-Q8_0",
+    "name": "IBM Granite 4.0 H Tiny",
+    "url": "https://huggingface.co/unsloth/granite-4.0-h-tiny-GGUF/resolve/main/granite-4.0-h-tiny-Q8_0.gguf",
+    "provider": "local",
+    "input_token_cost": 0.0,
+    "output_token_cost": 0.0,
+    "is_downloadable": true,
+    "status": 0,
+    "is_embedding_model": false,
+    "capabilities": {},
+    "cached_token_cost": 0.0,
+    "model_info": {
+      "download_size": "7.39 GB",
+      "homepage_url": "https://huggingface.co/unsloth/granite-4.0-h-tiny-GGUF",
+      "quantization": "Q8_0"
+    },
+    "creator_name": "IBM",
+    "modified_by": "Unsloth",
+    "description": "Ultra-compact enterprise model for edge deployment"
+  }
+]
