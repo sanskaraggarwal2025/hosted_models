@@ -1,4 +1,8 @@
-[
+{
+  "metadata" : {
+    "json_schema_version": "v1"
+  },
+  "models_list": [
   {
     "id": "gpt-4.1",
     "name": "GPT-4.1",
@@ -988,3 +992,4 @@
     "description": "Ultra-compact enterprise model for edge deployment"
   }
 ]
+}
